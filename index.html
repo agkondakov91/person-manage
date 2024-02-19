@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Person Manage</title>
+  </head>
+  <body class="page">
+    <header class="header">
+      <img
+        class="header__logo"
+        src="./img/header__logo.svg"
+        alt="логотип компании Person Manage"
+      />
+      <p class="header__time">2024, February 18</p>
+      <div class="header__ring"></div>
+    </header>
+    <main class="main">
+      <section class="member">
+        <h1 class="member__header">Project members</h1>
+        <p class="member__total">Total: <span class="member__total member__total_bold">5</span></p>
+        <ul>
+          <li class="member__person">
+            <div class="member__info">
+              <div class="member__picture"></div>
+              <div class="member__about">
+                <p class="member__title">Иван Иванов</p>
+                <p class="member__email">ivanivanov@pm.com</p>
+              </div>
+            </div>
+            <div class="member__delete"></div>
+          </li>
+          <li class="member__person">
+            <div class="member__info">
+              <div class="member__picture"></div>
+              <div class="member__about">
+                <p class="member__title">Иван Иванов</p>
+                <p class="member__email">ivanivanov@pm.com</p>
+              </div>
+            </div>
+            <div class="member__delete"></div>
+          </li>
+        </ul>
+        <button class="member_add">Add member</button>
+      </section>
+      <section class="info">
+        <div class="info__user"></div>
+        <div class="info__role"></div>
+
+      </section>
+    </main>
+  </body>
+</html>
