@@ -25,7 +25,7 @@
     <main class="main">
       <section class="member">
         <h1 class="member__header">Project members</h1>
-        <p class="member__total">Total: <span class="member__total member__total_bold">5</span></p>
+        <p class="member__total">Total: <span class="member__total-bold">5</span></p>
         <ul>
           <li class="member__person">
             <div class="member__info">
@@ -48,12 +48,79 @@
             <div class="member__delete"></div>
           </li>
         </ul>
-        <button class="member_add">Add member</button>
+        <button class="member__add">Add member</button>
       </section>
-      <section class="info">
-        <div class="info__user"></div>
-        <div class="info__role"></div>
-
+      <section class="about">
+        <ul class="info">
+          <li class="info__user">
+            <div class="info__top">
+              <p class="info__description">ФИО</p>
+              <p class="info__text">Иванов Иван Иванович</p>
+            </div>
+            <div>
+              <p class="info__description">Возраст, полных лет</p>
+              <p class="info__text">42</p>
+            </div>
+            <h2 class="info__title">About User</h2>
+            <div class="info__picture"></div>
+          </li>
+          <li class="info__role">
+            <div class="info__top">
+              <p class="info__description">Должность</p>
+              <p class="info__text">Владелец проекта</p>
+            </div>
+            <div>
+              <p class="info__description">Трудовой стаж, лет</p>
+              <p class="info__text">15</p>
+            </div>
+            <h2 class="info__title">Project Role</h2>
+          </li>
+          <li class="info__efficiency">
+            <div class="info__top">
+              <p class="info__description">Окончание сотрудничества</p>
+            <p class="info__text">15 августа 2025</p>
+            </div>
+            <div>
+              <p class="info__description">Трудовая эффективность</p>
+              <p class="info__text">15%</p>
+            </div>
+            <h2 class="info__title">Efficiency</h2>
+          </li>
+        </ul>
+        <ul class="info2">
+          <li class="info2__location">
+            <p class="info2__subtitle">MSC</p>
+            <h2 class="info2__title">Location</h2>
+          </li>
+          <li class="info2__birthday">
+            <p class="info2__subtitle">24.07</p>
+            <h2 class="info2__title">Birthday</h2>
+          </li>
+          <li class="info2__budget">
+            <p class="info2__subtitle">250 000</p>
+            <h2 class="info2__title">Budget</h2>
+          </li>
+        </ul>
+        <div class="about__map">
+          <h2 class="about__title">Project Location</h2>
+          <div class="about__info">
+            <img class="about__img" src="./img/map.jpg">
+            <ul class="about__information">
+              <li class="about__item">
+                <p class="about__item-title">Moscow</p>
+                <p class="about__item-subtitle">55°45′07″ 37°36′56″</p>
+              </li>
+              <li class="about__item">
+                <p class="about__item-title">Time Zone</p>
+                <p class="about__item-subtitle">14 : 47 : 32</p>
+              </li>
+              <li class="about__item">
+                <p class="about__item-title">Company</p>
+                <p class="about__item-subtitle">Person Manage</p>
+              </li>
+            </ul>
+          </div>
+        </div>
       </section>
     </main>
   </body>
