@@ -348,3 +348,114 @@ li {
   font-size: 16px;
   color: #0377C5;
 }
+
+.popup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 25, 41, .8); 
+  position: fixed;
+  top: 0; 
+  left: 0; 
+  bottom: 0; 
+  right: 0;
+}
+
+.popup__container {
+  position: relative;
+  padding: 40px 60px 50px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 650px;
+  height: 815px;
+  box-shadow: 2px 2px 15px 0 rgba(0, 47, 80, 0.5);
+  background: #fff;
+}
+
+.popup__close {
+  background-image: url(./img/close.svg);
+  background-repeat: no-repeat;
+  background-color: transparent;
+  width: 30px;
+  height: 30px;
+  border: none;
+  padding: 0;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+}
+
+.popup__title {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 32px;
+  color: #0377C5;
+}
+
+.popup__subtitle {
+  margin-bottom: 30px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  color: #0377C5;
+}
+
+.form {
+  font-family: "Inter", sans-serif;
+}
+
+.form__label {
+  display: block;
+  font-family: inherit;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  color: #0377C5;
+  margin-bottom: 10px;
+}
+
+.form__input {
+  padding: 0;
+  display: block;
+  font-family: inherit;
+  font-weight: 400;
+  padding-left: 16px;
+  border: 1px solid #0377C5;
+  border-radius: 5px;
+  width: 530px;
+  height: 41px;
+  color: #0377C5;
+  margin-bottom: 20px;
+}
+
+.form__input::placeholder {
+  color: #0377C5;
+  opacity: .6;
+}
+
+.form__input:focus {
+  outline-color: #0098FF;
+}
+
+.popup__button {
+  margin-top: 25px;
+  border-radius: 5px;
+  width: 304px;
+  height: 65px;
+  background: #ff7a00;
+  border: none;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+}

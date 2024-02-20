@@ -122,6 +122,86 @@
           </div>
         </div>
       </section>
+
+      <div class="popup">
+        <div class="popup__container">
+          <button type="button" class="popup__close"></button>
+          <h3 class="popup__title">Add a new member</h3>
+          <p class="popup__subtitle">Заполните все поля формы</p>
+          <form class="form">
+            <label>
+              <span class="form__label">ФИО</span>
+              <input
+                id="name"
+                type="text"
+                class="form__input"
+                placeholder="Введите ФИО"
+                minlength="2"
+                maxlength="50"
+                required
+              >
+            </label>
+            <label>
+              <span class="form__label">Дата рождения</span>
+              <input
+                type="text"
+                class="form__input"
+                placeholder="Введите дату рождения"
+                required
+              >
+            </label>
+            <label>
+              <span class="form__label">Должность</span>
+              <input
+                type="text"
+                class="form__input"
+                placeholder="Введите должность сотрудника"
+                minlength="2"
+                maxlength="50"
+                required
+              >
+            </label>
+            <label>
+              <span class="form__label">Зарплата</span>
+              <input
+                type="text"
+                class="form__input"
+                placeholder="Введите заработную плату сотдруника"
+                minlength="2"
+                maxlength="50"
+                required
+              >
+            </label>
+            <label>
+              <span class="form__label">Опыт работы</span>
+              <input
+                type="text"
+                class="form__input"
+                placeholder="Введите трудовой стаж сотрудника"
+                minlength="2"
+                maxlength="50"
+                required
+              >
+            </label>
+            <label>
+              <span class="form__label">Окончание проекта</span>
+              <input
+                type="text"
+                class="form__input"
+                placeholder="Введите дату окончания сотрудничества"
+                minlength="2"
+                maxlength="50"
+                required
+              >
+            </label>
+            <button type="submit" class="popup__button">
+              Add member
+            </button> 
+          </form>
+        </div>
+       
+      </div>
+
     </main>
   </body>
 </html>
