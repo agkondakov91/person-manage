@@ -1,0 +1,9 @@
+.about__item {
+  margin-bottom: 16px;
+  border-bottom: 1px solid #EEF7FF;
+}
+
+.about__item:last-child {
+  margin-bottom: 0;
+  border-bottom: none;
+}

@@ -1,0 +1,10 @@
+.form__label {
+  display: block;
+  font-family: inherit;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  color: #0377C5;
+  margin-bottom: 10px;
+}

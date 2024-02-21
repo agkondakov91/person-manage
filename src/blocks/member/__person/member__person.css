@@ -1,0 +1,16 @@
+.member__person {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 84px;
+  border-top: 1px solid #EEF7FF;
+}
+
+.member__person:last-child {
+  border-bottom: 1px solid #EEF7FF;
+}
+
+.member__person:hover {
+  background: #eef7ff;
+  cursor: pointer;
+}

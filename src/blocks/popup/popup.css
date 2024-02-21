@@ -1,0 +1,9 @@
+@import url(./__container/popup__container.css);
+@import url(./__close/popup__close.css);
+@import url(./__title/popup__title.css);
+@import url(./__subtitle/popup__subtitle.css);
+@import url(./__button/popup__button.css);
+
+.popup {
+  display: none;
+}

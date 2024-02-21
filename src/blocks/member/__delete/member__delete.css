@@ -1,0 +1,7 @@
+.member__delete {
+  background-image: url(../../../img/Delete.svg);
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+}

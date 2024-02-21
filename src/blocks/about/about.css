@@ -1,0 +1,13 @@
+@import url(./__map/about__map.css);
+@import url(./__title/about__title.css);
+@import url(./__info/about__info.css);
+@import url(./__img/about__img.css);
+@import url(./__item/about__item.css);
+@import url(./__item-title/about__item-title.css);
+@import url(./__item-subtitle/about__item-subtitle.css);
+
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

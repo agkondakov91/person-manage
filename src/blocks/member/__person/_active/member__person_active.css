@@ -1,0 +1,5 @@
+.member__person_active { /*если пользователь выбран*/
+  background: #eef7ff;
+  border-left: 4px solid #0377c5;
+  height: 84px;
+}

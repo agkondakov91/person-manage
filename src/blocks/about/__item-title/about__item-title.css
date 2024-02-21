@@ -1,0 +1,9 @@
+.about__item-title {
+  margin-bottom: 9px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  color: #0377C5;
+}

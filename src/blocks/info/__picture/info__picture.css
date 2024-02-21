@@ -1,0 +1,10 @@
+.info__picture {
+  background-image: url(../../../img/Vector.svg);
+  background-repeat: no-repeat;
+  width: 87px;
+  height: 101px;
+  background-size: contain;
+  position: absolute;
+  right: 25px;
+  bottom: 24px;
+}

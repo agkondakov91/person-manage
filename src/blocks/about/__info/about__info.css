@@ -1,0 +1,5 @@
+.about__info {
+  display: flex;
+  align-items: center;
+  gap: 94px;
+}

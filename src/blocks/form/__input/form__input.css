@@ -1,0 +1,22 @@
+.form__input {
+  padding: 0;
+  display: block;
+  font-family: inherit;
+  font-weight: 400;
+  padding-left: 16px;
+  border: 1px solid #0377C5;
+  border-radius: 5px;
+  width: 530px;
+  height: 41px;
+  color: #0377C5;
+  margin-bottom: 20px;
+}
+
+.form__input::placeholder {
+  color: #0377C5;
+  opacity: .6;
+}
+
+.form__input:focus {
+  outline-color: #0098FF;
+}

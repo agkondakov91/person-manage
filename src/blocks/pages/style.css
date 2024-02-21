@@ -1,0 +1,11 @@
+@import url(../../styles/global.css);
+@import url(../page/page.css);
+@import url(../header/header.css);
+@import url(../main/main.css);
+@import url(../member/member.css);
+@import url(../about/about.css);
+@import url(../info/info.css);
+@import url(../info2/info2.css);
+@import url(../popup/popup.css);
+@import url(../popup/_open/popup_open.css);
+@import url(../form/form.css);

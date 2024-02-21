@@ -2,8 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
+    <meta name="description" content="Практика TS и ООП" />
+    <meta
+      name="keywords"
+      content="javascript, typescript, ооп, вёрстка, dashboard"
+    />
+    <meta name="author" content="Александр Кондаков" />
+    <link rel="stylesheet" href="./blocks/pages/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,18 +21,16 @@
   </head>
   <body class="page">
     <header class="header">
-      <img
-        class="header__logo"
-        src="./img/header__logo.svg"
-        alt="логотип компании Person Manage"
-      />
+      <img src="./img/header__logo.svg" alt="логотип компании Person Manage" />
       <p class="header__time">2024, February 18</p>
       <div class="header__ring"></div>
     </header>
     <main class="main">
       <section class="member">
         <h1 class="member__header">Project members</h1>
-        <p class="member__total">Total: <span class="member__total-bold">5</span></p>
+        <p class="member__total">
+          Total: <span class="member__total-bold">5</span>
+        </p>
         <ul>
           <li class="member__person">
             <div class="member__info">
@@ -78,7 +83,7 @@
           <li class="info__efficiency">
             <div class="info__top">
               <p class="info__description">Окончание сотрудничества</p>
-            <p class="info__text">15 августа 2025</p>
+              <p class="info__text">15 августа 2025</p>
             </div>
             <div>
               <p class="info__description">Трудовая эффективность</p>
@@ -104,7 +109,7 @@
         <div class="about__map">
           <h2 class="about__title">Project Location</h2>
           <div class="about__info">
-            <img class="about__img" src="./img/map.jpg">
+            <img class="about__img" src="./img/map.jpg" />
             <ul class="about__information">
               <li class="about__item">
                 <p class="about__item-title">Moscow</p>
@@ -123,7 +128,7 @@
         </div>
       </section>
 
-      <div class="popup">
+      <div class="popup popup_open">
         <div class="popup__container">
           <button type="button" class="popup__close"></button>
           <h3 class="popup__title">Add a new member</h3>
@@ -139,7 +144,7 @@
                 minlength="2"
                 maxlength="50"
                 required
-              >
+              />
             </label>
             <label>
               <span class="form__label">Дата рождения</span>
@@ -148,7 +153,7 @@
                 class="form__input"
                 placeholder="Введите дату рождения"
                 required
-              >
+              />
             </label>
             <label>
               <span class="form__label">Должность</span>
@@ -159,7 +164,7 @@
                 minlength="2"
                 maxlength="50"
                 required
-              >
+              />
             </label>
             <label>
               <span class="form__label">Зарплата</span>
@@ -170,7 +175,7 @@
                 minlength="2"
                 maxlength="50"
                 required
-              >
+              />
             </label>
             <label>
               <span class="form__label">Опыт работы</span>
@@ -181,7 +186,7 @@
                 minlength="2"
                 maxlength="50"
                 required
-              >
+              />
             </label>
             <label>
               <span class="form__label">Окончание проекта</span>
@@ -192,16 +197,12 @@
                 minlength="2"
                 maxlength="50"
                 required
-              >
+              />
             </label>
-            <button type="submit" class="popup__button">
-              Add member
-            </button> 
+            <button type="submit" class="popup__button">Add member</button>
           </form>
         </div>
-       
       </div>
-
     </main>
   </body>
 </html>

@@ -1,0 +1,26 @@
+.popup__button {
+  margin-top: 25px;
+  border-radius: 5px;
+  width: 304px;
+  height: 65px;
+  background: #ff7a00;
+  border: none;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+  cursor: pointer;
+}
+
+.popup__button:hover {
+  background: #0377C5;
+  box-shadow: 2px 2px 10px 0 rgba(0, 91, 153, 0.25);
+}
+
+.popup__button:focus {
+  outline-color: #BD5B00;
+}

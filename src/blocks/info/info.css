@@ -1,0 +1,14 @@
+@import url(./__user/info__user.css);
+@import url(./__top/info__top.css);
+@import url(./__description/info__description.css);
+@import url(./__text/info__text.css);
+@import url(./__title/info__title.css);
+@import url(./__picture/info__picture.css);
+@import url(./__role/info__role.css);
+@import url(./__efficiency/info__efficiency.css);
+
+.info {
+  display: grid;
+  grid-template-columns: 406px repeat(2, 1fr);
+  gap: 20px;
+}

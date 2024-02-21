@@ -1,0 +1,9 @@
+.info__text {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #0377C5;
+  font-size: 35px;
+  line-height: 100%;
+}

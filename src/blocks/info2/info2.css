@@ -1,0 +1,11 @@
+@import url(./__location/info2__location.css);
+@import url(./__birthday/info2__birthday.css);
+@import url(./__subtitle/info2__subtitle.css);
+@import url(./__title/info2__title.css);
+@import url(./__budget/info2__budget.css);
+
+.info2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) 406px;
+  gap: 20px;
+}

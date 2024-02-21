@@ -1,0 +1,7 @@
+.header__ring {
+  background-image: url(../../../img/ring.svg);
+  background-repeat: no-repeat;
+  width: 22px;
+  height: 23px;
+  background-size: contain;
+}

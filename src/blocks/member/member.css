@@ -1,0 +1,21 @@
+@import url(./__header/member__header.css);
+@import url(./__total/member__total.css);
+@import url(./__total-bold/member__total-bold.css);
+@import url(./__person/member__person.css);
+@import url(./__person/_active/member__person_active.css);
+@import url(./__info/member__info.css);
+@import url(./__picture/member__picture.css);
+@import url(./__about/member__about.css);
+@import url(./__title/member__title.css);
+@import url(./__email/member__email.css);
+@import url(./__delete/member__delete.css);
+@import url(./__add/member__add.css);
+
+.member {
+  position: relative;;
+  height: 884px;
+  width: 384px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px 0 rgba(0, 91, 153, 0.25);
+  background: #fff;
+}

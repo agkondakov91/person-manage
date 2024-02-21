@@ -1,0 +1,11 @@
+.info__efficiency {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  padding: 20px 25px;
+  width: 275px;
+  height: 290px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px 0 rgba(0, 91, 153, 0.25);
+  background: #fff;
+}

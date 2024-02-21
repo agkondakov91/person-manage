@@ -1,0 +1,9 @@
+.about__item-subtitle {
+  margin-bottom: 16px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: #0377C5;
+}

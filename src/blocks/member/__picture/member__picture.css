@@ -1,0 +1,7 @@
+.member__picture {
+  background-image: url(../../../img/member__picture.svg);
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+}
