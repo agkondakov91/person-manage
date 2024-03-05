@@ -31,27 +31,8 @@
         <p class="member__total">
           Total: <span class="member__total-bold">5</span>
         </p>
-        <ul>
-          <li class="member__person">
-            <div class="member__info">
-              <div class="member__picture"></div>
-              <div class="member__about">
-                <p class="member__title">Иван Иванов</p>
-                <p class="member__email">ivanivanov@pm.com</p>
-              </div>
-            </div>
-            <div class="member__delete"></div>
-          </li>
-          <li class="member__person">
-            <div class="member__info">
-              <div class="member__picture"></div>
-              <div class="member__about">
-                <p class="member__title">Иван Иванов</p>
-                <p class="member__email">ivanivanov@pm.com</p>
-              </div>
-            </div>
-            <div class="member__delete"></div>
-          </li>
+        <ul id="list-elements">
+          
         </ul>
         <button class="member__add">Add member</button>
       </section>
@@ -60,11 +41,11 @@
           <li class="info__user">
             <div class="info__top">
               <p class="info__description">ФИО</p>
-              <p class="info__text">Иванов Иван Иванович</p>
+              <p class="info__text"></p>
             </div>
             <div>
               <p class="info__description">Возраст, полных лет</p>
-              <p class="info__text">42</p>
+              <p class="info__text"></p>
             </div>
             <h2 class="info__title">About User</h2>
             <div class="info__picture"></div>
@@ -72,37 +53,37 @@
           <li class="info__role">
             <div class="info__top">
               <p class="info__description">Должность</p>
-              <p class="info__text">Владелец проекта</p>
+              <p class="info__text"></p>
             </div>
             <div>
               <p class="info__description">Трудовой стаж, лет</p>
-              <p class="info__text">15</p>
+              <p class="info__text"></p>
             </div>
             <h2 class="info__title">Project Role</h2>
           </li>
           <li class="info__efficiency">
             <div class="info__top">
               <p class="info__description">Окончание сотрудничества</p>
-              <p class="info__text">15 августа 2025</p>
+              <p class="info__text"></p>
             </div>
             <div>
               <p class="info__description">Трудовая эффективность</p>
-              <p class="info__text">15%</p>
+              <p class="info__text"></p>
             </div>
             <h2 class="info__title">Efficiency</h2>
           </li>
         </ul>
         <ul class="info2">
           <li class="info2__location">
-            <p class="info2__subtitle">MSC</p>
+            <p class="info2__subtitle"></p>
             <h2 class="info2__title">Location</h2>
           </li>
           <li class="info2__birthday">
-            <p class="info2__subtitle">24.07</p>
+            <p class="info2__subtitle"></p>
             <h2 class="info2__title">Birthday</h2>
           </li>
           <li class="info2__budget">
-            <p class="info2__subtitle">250 000</p>
+            <p class="info2__subtitle"></p>
             <h2 class="info2__title">Budget</h2>
           </li>
         </ul>
@@ -128,7 +109,7 @@
         </div>
       </section>
 
-      <div class="popup popup_open">
+      <div class="popup"> <!-- //popup_open -->
         <div class="popup__container">
           <button type="button" class="popup__close"></button>
           <h3 class="popup__title">Add a new member</h3>
@@ -152,6 +133,17 @@
                 type="text"
                 class="form__input"
                 placeholder="Введите дату рождения"
+                required
+              />
+            </label>
+            <label>
+              <span class="form__label">Электронная почта</span>
+              <input
+                type="email"
+                class="form__input"
+                placeholder="Введите email адрес сотрудника"
+                minlength="2"
+                maxlength="50"
                 required
               />
             </label>
@@ -188,21 +180,25 @@
                 required
               />
             </label>
-            <label>
-              <span class="form__label">Окончание проекта</span>
-              <input
-                type="text"
-                class="form__input"
-                placeholder="Введите дату окончания сотрудничества"
-                minlength="2"
-                maxlength="50"
-                required
-              />
-            </label>
             <button type="submit" class="popup__button">Add member</button>
           </form>
         </div>
       </div>
     </main>
+
+    <template id="user-card">
+      <li class="member__person"> <!-- //member__person_active-->
+        <div class="member__info">
+          <div class="member__picture"></div>
+          <div class="member__about">
+            <p class="member__title"></p>
+            <p class="member__email"></p>
+          </div>
+        </div>
+        <button class="member__delete"></button> <!-- //member__delete_none-->
+      </li>
+    </template>
+    
+    <script src="../dist/main.js"></script>
   </body>
 </html>

@@ -1,6 +1,6 @@
 .member__person {
+  position: relative;
   display: flex;
-  justify-content: space-around;
   align-items: center;
   height: 84px;
   border-top: 1px solid #EEF7FF;

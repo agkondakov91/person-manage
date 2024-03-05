@@ -15,6 +15,7 @@
   font-size: 16px;
   text-transform: uppercase;
   color: #fff;
+  cursor: pointer;
 }
 
 .member__add:hover {

@@ -9,6 +9,7 @@
 @import url(./__title/member__title.css);
 @import url(./__email/member__email.css);
 @import url(./__delete/member__delete.css);
+@import url(./__delete/member__delete_none.css);
 @import url(./__add/member__add.css);
 
 .member {
