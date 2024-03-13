@@ -1,0 +1,22 @@
+.popup__button_type_disabled {
+  margin-top: 25px;
+  border-radius: 5px;
+  width: 304px;
+  height: 65px;
+  background: #C8C8C8;
+  border: none;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+  cursor: default;
+}
+
+.popup__button_type_disabled:hover {
+  background: #C8C8C8;
+  box-shadow: none;
+}

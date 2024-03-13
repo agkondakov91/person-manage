@@ -3,6 +3,7 @@
 @import url(./__title/popup__title.css);
 @import url(./__subtitle/popup__subtitle.css);
 @import url(./__button/popup__button.css);
+@import url(./__button/_type/popup__button_type_disabled.css);
 
 .popup {
   display: none;
